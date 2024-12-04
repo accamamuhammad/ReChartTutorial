@@ -1,7 +1,12 @@
 import "./App.css";
+import LineGraph from "./components/line";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <LineGraph />
+    </>
+  );
 }
 
 export default App;
